@@ -1,0 +1,6 @@
+Pump performance for AutoWater project
+
+Pump pulse           Water volume
+------------------+-------------------
+10 s   				1300 ml
+ 5 s                 650 ml

@@ -4,3 +4,10 @@ Pump pulse           Water volume
 ------------------+-------------------
 10 s   				1300 ml
  5 s                 650 ml
+
+
+No clamps performance per pot
+
+Pump pulse = 15s
+
+Pot1 = 800 ml

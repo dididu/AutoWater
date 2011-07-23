@@ -9,15 +9,15 @@ int ledPin = 13;
 int pumpPin = 10;
 
 // durations in seconds
-int pumpPulseDuration = 5;
-int delayDuration = 30;
+int pumpPulseDuration = 10;   // 15 seconds pump running every
+unsigned long delayDuration = 60*60*12; // 12 hours
 
 void setup()            
 {
   pinMode(ledPin, OUTPUT);   // sets the pin as output
   pinMode(pumpPin, OUTPUT);
 
-  delay(delayDuration*1000);   // pause a bit before pumping when power on
+  delay(10*1000);   // pause a bit before pumping when power on
 }
 
 void loop() {
